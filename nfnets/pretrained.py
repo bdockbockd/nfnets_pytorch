@@ -29,7 +29,7 @@ def pretrained_nfnet(path, stochdepth_rate:float=0.5, alpha:float=0.2, activatio
 
     model = NFNet(
         variant=layers_to_variant[len(params)],
-        num_classes=1000, 
+        num_classes=2, 
         alpha=alpha,
         stochdepth_rate=stochdepth_rate,
         se_ratio=0.5,

@@ -20,7 +20,8 @@ def pretrained_nfnet(path, stochdepth_rate:float=0.5, alpha:float=0.2, activatio
         262: 'F2',
         346: 'F3',
         430: 'F4',
-        514: 'F5'
+        514: 'F5',
+        598: 'F6'
     }
 
     if not len(params) in layers_to_variant:
